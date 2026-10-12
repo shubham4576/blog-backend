@@ -1,8 +1,15 @@
-Environment variables and secrets
-
+# Environment variables
 .env
+.env.*
 
+# Allow example environment file
+!.env.example
 
-Python cache
+# Python cache
+__pycache__/
+*.py[cod]
 
-__pycache__
+# Virtual environments
+venv/
+.venv/
+myenv/
